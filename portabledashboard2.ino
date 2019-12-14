@@ -11,12 +11,12 @@ dht DHT;
 #include <BlynkSimpleShieldEsp8266.h>
 int measurePin = 0; //Connect dust sensor to Arduino A0 pin
 int ledPower = 7;   //Connect 3 led driver pins of dust sensor to Arduino D2
-char auth[] = "3A23ACDJhV0SNy84qI9rRwu3dASWVp6i";
+char auth[] = "auth-token";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Electricats";
-char pass[] = "Electricats999";  
+char ssid[] = "wifiname";
+char pass[] = "wifipass";  
 
 // How many NeoPixels are attached to the Arduino?
 Adafruit_NeoPixel  rgb_display_10(4);
